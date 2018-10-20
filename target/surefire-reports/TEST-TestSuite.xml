@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="9" failures="2" name="TestSuite" time="17.008" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="FreeCRMTestJob"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="G:\Users\Swapnil\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="73217ed716f15eeb"/>
+    <property name="POM_ARTIFACTID" value="FreeCRMTesting"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="G:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;G:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;G:\Program Files\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;G:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;G:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;G:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;G:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;G:\Program Files\Java\jdk1.8.0_91\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="FreeCRMTesting"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="G:\Users\Swapnil\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_91-b14"/>
+    <property name="user.name" value="Swapnil"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="G:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="G:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="FreeCRMTestJob"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/8/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#8"/>
+    <property name="OneDrive" value="G:\Users\Swapnil\OneDrive"/>
+    <property name="sun.boot.library.path" value="G:\Program Files\Java\jdk1.8.0_91\jre\bin"/>
+    <property name="=G:" value="G:\Users\Swapnil"/>
+    <property name="LOCALAPPDATA" value="G:\Users\Swapnil\AppData\Local"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="Swapnil"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="G:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="G:"/>
+    <property name="maven.conf" value="G:\Users\Swapnil\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="ALLUSERSPROFILE" value="G:\ProgramData"/>
+    <property name="java.home" value="G:\Program Files\Java\jdk1.8.0_91\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/8/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="G:\Users\Swapnil\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.91-b14"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="G:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-S56HRQK"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JAVA_HOME" value="G:\Program Files\Java\jdk1.8.0_91"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="G:\Program Files\Common Files"/>
+    <property name="ComSpec" value="G:\WINDOWS\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\Swapnil"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="DESKTOP-S56HRQK"/>
+    <property name="POM_GROUPID" value="FreeCRMTestingAutomation"/>
+    <property name="user.home" value="G:\Users\Swapnil"/>
+    <property name="PUBLIC" value="G:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-FreeCRMTestJob-8"/>
+    <property name="JENKINS_SERVER_COOKIE" value="73217ed716f15eeb"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="G:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="G:\Users\Swapnil"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="G:\Program Files\Java\jdk1.8.0_91\bin;G:\WINDOWS\Sun\Java\bin;G:\WINDOWS\system32;G:\WINDOWS;G:\Users\Swapnil\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;G:\Program Files\Java\jdk1.8.0_91/bin;G:\Program Files\Java\jdk1.8.0_91/bin;G:\ProgramData\Oracle\Java\javapath;G:\WINDOWS\system32;G:\WINDOWS;G:\WINDOWS\System32\Wbem;G:\WINDOWS\System32\WindowsPowerShell\v1.0\;G:\WINDOWS\System32\OpenSSH\;G:\Program Files (x86)\AMD\ATI.ACE\Core-Static;G:\Program Files\Java\jdk1.8.0_91\bin;D:\Selenium Study\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;G:\Users\Swapnil\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="G:\Users\Swapnil\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="G:\Users\Swapnil\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.class.path" value="G:\Users\Swapnil\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;G:\Users\Swapnil\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.5.2.jar;G:\Users\Swapnil\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main G:\Users\Swapnil\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven G:\Users\Swapnil\.jenkins\war\WEB-INF\lib\remoting-3.27.jar G:\Users\Swapnil\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar G:\Users\Swapnil\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 56507"/>
+    <property name="Path" value="G:\Program Files\Java\jdk1.8.0_91/bin;G:\ProgramData\Oracle\Java\javapath;G:\WINDOWS\system32;G:\WINDOWS;G:\WINDOWS\System32\Wbem;G:\WINDOWS\System32\WindowsPowerShell\v1.0\;G:\WINDOWS\System32\OpenSSH\;G:\Program Files (x86)\AMD\ATI.ACE\Core-Static;G:\Program Files\Java\jdk1.8.0_91\bin;D:\Selenium Study\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;G:\Users\Swapnil\AppData\Local\Microsoft\WindowsApps;"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="G:\Program Files\Java\jdk1.8.0_91/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 69 Stepping 1, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="G:\Users\Swapnil\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="=D:" value="D:\Selenium Study\Jenkins"/>
+    <property name="java.io.tmpdir" value="G:\Users\Swapnil\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="G:\Users\Swapnil\.jenkins"/>
+    <property name="PATH+MAVEN" value="G:\Users\Swapnil\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
+    <property name="ProgramFiles(x86)" value="G:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/FreeCRMTestJob/8/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="G:\WINDOWS"/>
+    <property name="java.ext.dirs" value="G:\Program Files\Java\jdk1.8.0_91\jre\lib\ext;G:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="D:\Selenium Classes\eclipse-workspace\FreeCRMTesting"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/FreeCRMTestJob/"/>
+    <property name="LOGONSERVER" value="\\DESKTOP-S56HRQK"/>
+    <property name="USERDOMAIN" value="DESKTOP-S56HRQK"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="G:\Users\Swapnil\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="8"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="4501"/>
+    <property name="ProgramW6432" value="G:\Program Files"/>
+    <property name="windir" value="G:\WINDOWS"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="G:"/>
+    <property name="maven3.interceptor" value="G:\Users\Swapnil\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="WORKSPACE" value="G:\Users\Swapnil\.jenkins\workspace\FreeCRMTestJob"/>
+    <property name="maven3.interceptor.common" value="G:\Users\Swapnil\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="G:\Program Files\WindowsPowerShell\Modules;G:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="DriverData" value="G:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase classname="com.crm.qa.testcases.ContactPageTest" name="verifyContactsPageDisplayedTest" time="2.327"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyHomePageTitleTest" time="0.036"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="validateLoginPageTitleTest" time="0.016"/>
+  <testcase classname="com.crm.qa.testcases.ContactPageTest" name="createNewContactTest" time="2.032">
+    <failure message="element not visible
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-S56HRQK&apos;, ip: &apos;192.168.43.252&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: G:\Users\Swapnil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: a450106d1dab593d8a2bbeeeed727f3d" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-S56HRQK&apos;, ip: &apos;192.168.43.252&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: G:\Users\Swapnil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: a450106d1dab593d8a2bbeeeed727f3d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:403)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:416)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.crm.qa.pages.HomePage.clickOnNewContactsTab(HomePage.java:67)
+	at com.crm.qa.testcases.ContactPageTest.createNewContactTest(ContactPageTest.java:50)
+</failure>
+    <system-out>Before navigating to: &apos;https://www.freecrm.com&apos;
+Navigated to:&apos;https://www.freecrm.com&apos;
+Trying to find Element By : By.xpath: //input[@name=&apos;username&apos;]
+Found Element By : By.xpath: //input[@name=&apos;username&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;password&apos;]
+Found Element By : By.xpath: //input[@name=&apos;password&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;password&apos;]
+Found Element By : By.xpath: //input[@name=&apos;password&apos;]
+Trying to find Element By : By.xpath: //a[contains(text(),&apos;Contacts&apos;)]
+Found Element By : By.xpath: //a[contains(text(),&apos;Contacts&apos;)]
+Trying to click on: [[ChromeDriver: chrome on XP (a450106d1dab593d8a2bbeeeed727f3d)] -&gt; xpath: //a[contains(text(),&apos;Contacts&apos;)]]
+Clicked on: [[ChromeDriver: chrome on XP (a450106d1dab593d8a2bbeeeed727f3d)] -&gt; xpath: //a[contains(text(),&apos;Contacts&apos;)]]
+Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-S56HRQK&apos;, ip: &apos;192.168.43.252&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: driver.version: EventFiringWebDriver
+Trying to find Element By : By.xpath: //a[contains(text(),&apos;Contacts&apos;)]
+Found Element By : By.xpath: //a[contains(text(),&apos;Contacts&apos;)]
+Trying to find Element By : By.xpath: //a[contains(text(),&apos;New Contact&apos;)]
+Found Element By : By.xpath: //a[contains(text(),&apos;New Contact&apos;)]
+Trying to click on: [[ChromeDriver: chrome on XP (a450106d1dab593d8a2bbeeeed727f3d)] -&gt; xpath: //a[contains(text(),&apos;New Contact&apos;)]]
+Exception occured: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-S56HRQK&apos;, ip: &apos;192.168.43.252&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: G:\Users\Swapnil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: a450106d1dab593d8a2bbeeeed727f3d
+</system-out>
+    <system-err>Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 8455
+Only local connections are allowed.
+Oct 20, 2018 6:32:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactPageTest" name="createNewContactTest" time="2.086">
+    <failure message="element not visible
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-S56HRQK&apos;, ip: &apos;192.168.43.252&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: G:\Users\Swapnil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: f757aa25fc5e2b913a2d1d72869d86eb" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-S56HRQK&apos;, ip: &apos;192.168.43.252&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: G:\Users\Swapnil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: f757aa25fc5e2b913a2d1d72869d86eb
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:403)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:416)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.crm.qa.pages.HomePage.clickOnNewContactsTab(HomePage.java:67)
+	at com.crm.qa.testcases.ContactPageTest.createNewContactTest(ContactPageTest.java:50)
+</failure>
+    <system-out>Before navigating to: &apos;https://www.freecrm.com&apos;
+Navigated to:&apos;https://www.freecrm.com&apos;
+Trying to find Element By : By.xpath: //input[@name=&apos;username&apos;]
+Found Element By : By.xpath: //input[@name=&apos;username&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;password&apos;]
+Found Element By : By.xpath: //input[@name=&apos;password&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;password&apos;]
+Found Element By : By.xpath: //input[@name=&apos;password&apos;]
+Trying to find Element By : By.xpath: //a[contains(text(),&apos;Contacts&apos;)]
+Found Element By : By.xpath: //a[contains(text(),&apos;Contacts&apos;)]
+Trying to click on: [[ChromeDriver: chrome on XP (f757aa25fc5e2b913a2d1d72869d86eb)] -&gt; xpath: //a[contains(text(),&apos;Contacts&apos;)]]
+Clicked on: [[ChromeDriver: chrome on XP (f757aa25fc5e2b913a2d1d72869d86eb)] -&gt; xpath: //a[contains(text(),&apos;Contacts&apos;)]]
+Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-S56HRQK&apos;, ip: &apos;192.168.43.252&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: driver.version: EventFiringWebDriver
+Trying to find Element By : By.xpath: //a[contains(text(),&apos;Contacts&apos;)]
+Found Element By : By.xpath: //a[contains(text(),&apos;Contacts&apos;)]
+Trying to find Element By : By.xpath: //a[contains(text(),&apos;New Contact&apos;)]
+Found Element By : By.xpath: //a[contains(text(),&apos;New Contact&apos;)]
+Trying to click on: [[ChromeDriver: chrome on XP (f757aa25fc5e2b913a2d1d72869d86eb)] -&gt; xpath: //a[contains(text(),&apos;New Contact&apos;)]]
+Exception occured: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-S56HRQK&apos;, ip: &apos;192.168.43.252&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: G:\Users\Swapnil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: f757aa25fc5e2b913a2d1d72869d86eb
+</system-out>
+    <system-err>Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 43113
+Only local connections are allowed.
+Oct 20, 2018 6:33:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyUserNameLabelTest" time="0.184"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="validateCRMloginPageLogoTest" time="0.072"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyContactsPageTest" time="0.536"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginTest" time="9.719"/>
+</testsuite>
