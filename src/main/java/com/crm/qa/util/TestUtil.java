@@ -18,6 +18,12 @@ import org.openqa.selenium.TakesScreenshot;
 import com.crm.qa.base.TestBase;
 import com.google.common.io.Files;
 
+
+/*
+ * 
+ * Function for reading excel file
+ * 
+ */
 public class TestUtil extends TestBase{
 
 	public static int PAGE_TIMEOUT=20;
